@@ -1,0 +1,8 @@
+{
+  "name": "leapwork",
+  "owner": { "name": "Leapwork" },
+  "description": "Leapwork Play test automation for Claude Code: create, record, run and debug tests with your Leapwork Play account.",
+  "plugins": [
+    { "name": "leapwork-play", "source": "./play-claude-plugin" }
+  ]
+}
