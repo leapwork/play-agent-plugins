@@ -36,9 +36,6 @@ After sign-in, ask for Leapwork Play in Agent chat.
 - "Create a test case in Leapwork Play for this bug."
 - "Search Leapwork Play for test cases mentioning admin."
 - "Open the failing test case in Leapwork Play and start a browser session."
-- "Go to example.com, search for pencil, and record it as a Leapwork test."
-- "Run TC-28 and tell me why it failed."
-- "Run the smoke suite and summarise the failures."
 
 ## Working with Leapwork Play
 
@@ -67,14 +64,6 @@ The plugin connects Cursor to the Leapwork Play MCP server at `https://mcp.leapw
 - Make sure Leapwork Play is reachable from your machine.
 - Open **Customize** and check that **Leapwork Play** is turned on.
 - Re-authenticate Leapwork Play when Cursor prompts you.
-
-**You signed in, but it still can't connect**
-
-Ask your Leapwork Play administrator to check that external MCP authentication is enabled for your Leapwork Play environment.
-
-**Cursor uses a different Leapwork Play connection**
-
-If you also added Leapwork Play to Cursor by hand, for example in a project's `.cursor/mcp.json` or as a dev, QA or localhost server, turn it off. It has the same tools as the plugin, and Cursor may pick it instead.
 
 **The connection dropped during a job**
 

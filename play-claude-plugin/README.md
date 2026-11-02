@@ -33,9 +33,6 @@ The first time you use the plugin, Claude Code asks you to sign in to Leapwork P
 - "Create a test case in Leapwork Play for this bug."
 - "Search Leapwork Play for test cases mentioning admin."
 - "Open the failing test case in Leapwork Play and start a browser session."
-- "Go to example.com, search for pencil, and record it as a Leapwork test."
-- "Run TC-28 and tell me why it failed."
-- "Run the smoke suite and summarise the failures."
 
 ## Working with Leapwork Play
 
@@ -64,14 +61,6 @@ The plugin connects Claude Code to the Leapwork Play MCP server at `https://mcp.
 
 - Make sure Leapwork Play is reachable from your machine.
 - Run `/mcp` in Claude Code and reconnect or re-authenticate Leapwork Play.
-
-**You signed in, but it still can't connect**
-
-Ask your Leapwork Play administrator to check that external MCP authentication is enabled for your Leapwork Play environment.
-
-**Claude Code uses a different Leapwork Play connection**
-
-If you also added Leapwork Play to Claude Code by hand, for example a dev, QA or localhost server, turn it off. It has the same tools as the plugin, and Claude Code may pick it instead.
 
 **The connection dropped during a job**
 

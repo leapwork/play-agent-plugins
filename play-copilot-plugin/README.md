@@ -36,9 +36,6 @@ If your organization manages Copilot, an administrator may need to allow MCP ser
 - "Create a test case in Leapwork Play for this bug."
 - "Search Leapwork Play for test cases mentioning admin."
 - "Open the failing test case in Leapwork Play and start a browser session."
-- "Go to example.com, search for pencil, and record it as a Leapwork test."
-- "Run TC-28 and tell me why it failed."
-- "Run the smoke suite and summarise the failures."
 
 If Copilot answers with its own test generation instead of using Leapwork Play, name Leapwork Play in the request, for example "Use Leapwork Play to create a test case named Login smoke".
 
@@ -73,14 +70,6 @@ The plugin connects Copilot to the Leapwork Play MCP server at `https://mcp.leap
 **Leapwork Play's tools are missing or out of date**
 
 After Leapwork Play is updated, start a new chat or restart Copilot so it picks up the current tools.
-
-**You signed in, but it still can't connect**
-
-Ask your Leapwork Play administrator to check that external MCP authentication is enabled for your Leapwork Play environment. If your organization manages Copilot, also check that its policy allows MCP servers.
-
-**Copilot uses a different Leapwork Play connection**
-
-If you also added Leapwork Play to Copilot by hand, for example in an `mcp.json` file or as a dev, QA or localhost server, turn it off. It has the same tools as the plugin, and Copilot may pick it instead.
 
 **The connection dropped during a job**
 
