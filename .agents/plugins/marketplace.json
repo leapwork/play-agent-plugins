@@ -1,0 +1,12 @@
+{
+  "name": "leapwork",
+  "interface": { "displayName": "Leapwork" },
+  "plugins": [
+    {
+      "name": "leapwork-play",
+      "source": { "source": "local", "path": "./play-codex-plugin" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

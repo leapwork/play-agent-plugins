@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "leapwork-play",
+  "version": "1.0.0",
+  "description": "Create, run and debug Leapwork Play tests and runlists, build agents, and hand work to Play's AI workflows, right from Codex.",
+  "author": { "name": "Leapwork", "url": "https://leapwork.ai/" },
+  "homepage": "https://leapwork.ai/",
+  "repository": "https://github.com/leapwork/agent-plugins",
+  "keywords": ["testing", "test-automation", "playwright", "leapwork"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Leapwork Play",
+        "shortDescription": "Create, record, run and debug Leapwork Play tests",
+        "longDescription": "Build, run and fix Playwright-based tests in Leapwork Play without leaving Codex. Create and record tests, run them and whole runlists, debug failures, build agents, and hand bigger jobs to Play's AI workflows, with your own Leapwork Play account.",
+        "developerName": "Leapwork",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://leapwork.ai/",
+        "privacyPolicyURL": "https://leapwork.com/legal/privacy-policy/",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      }
+    }
+  }
+}

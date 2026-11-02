@@ -1,0 +1,14 @@
+{
+  "name": "leapwork",
+  "owner": { "name": "Leapwork" },
+  "metadata": {
+    "description": "Leapwork Play test automation for Cursor: create, record, run and debug tests with your Leapwork Play account."
+  },
+  "plugins": [
+    {
+      "name": "leapwork-play",
+      "source": "play-cursor-plugin",
+      "description": "Create, run and debug Leapwork Play tests and runlists, build agents, and hand work to Play's AI workflows, right from Cursor."
+    }
+  ]
+}
