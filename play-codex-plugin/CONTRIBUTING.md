@@ -9,7 +9,7 @@ This plugin uses the [Agent Plugins 1.0](https://agent-plugins.org/) format: `pl
 3. Add the repository root as a local marketplace, using its absolute path. Its `.agents/plugins/marketplace.json` points to this folder:
 
    ```bash
-   codex plugin marketplace add /path/to/agent-plugins
+   codex plugin marketplace add /path/to/play-agent-plugins
    codex plugin marketplace list
    ```
 

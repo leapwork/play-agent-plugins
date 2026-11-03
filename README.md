@@ -11,9 +11,9 @@ Build, run and fix [Playwright](https://playwright.dev/)-based tests in [Leapwor
 
 | Agent | Plugin folder | Install |
 | --- | --- | --- |
-| Claude Code | [`play-claude-plugin`](play-claude-plugin) | `/plugin marketplace add leapwork/agent-plugins`, then `/plugin install leapwork-play@leapwork` |
-| Codex | [`play-codex-plugin`](play-codex-plugin) | `codex plugin marketplace add leapwork/agent-plugins`, then `codex plugin add leapwork-play@leapwork` |
-| GitHub Copilot CLI | [`play-copilot-plugin`](play-copilot-plugin) | `copilot plugin marketplace add leapwork/agent-plugins`, then `copilot plugin install leapwork-play@leapwork` |
+| Claude Code | [`play-claude-plugin`](play-claude-plugin) | `/plugin marketplace add leapwork/play-agent-plugins`, then `/plugin install leapwork-play@leapwork` |
+| Codex | [`play-codex-plugin`](play-codex-plugin) | `codex plugin marketplace add leapwork/play-agent-plugins`, then `codex plugin add leapwork-play@leapwork` |
+| GitHub Copilot CLI | [`play-copilot-plugin`](play-copilot-plugin) | `copilot plugin marketplace add leapwork/play-agent-plugins`, then `copilot plugin install leapwork-play@leapwork` |
 | Cursor | [`play-cursor-plugin`](play-cursor-plugin) | Install **Leapwork Play** from the Cursor Marketplace |
 | Google Antigravity | [`play-antigravity-plugin`](play-antigravity-plugin) | Install **Leapwork Play** from the Antigravity Marketplace, or `agy plugin install ./play-antigravity-plugin` from a clone |
 
@@ -33,6 +33,15 @@ Each agent reads its marketplace file from the repository root, and that file po
 Antigravity has no marketplace file; it installs from the `play-antigravity-plugin` folder.
 
 Keep `version` in step across the plugin manifests and marketplace files when you release.
+
+## Support and policies
+
+- [Report a plugin issue](https://github.com/leapwork/play-agent-plugins/issues)
+- [Leapwork Play documentation](https://docs.leapwork.com/leapwork-play/latest)
+- [Privacy policy](https://leapwork.com/legal/privacy-policy/)
+- [Terms](https://leapwork.com/legal/trial-evaluation-agreement/)
+
+Review requested actions before approving them. Tool arguments and results can include test case data, team variables, run screenshots and videos. Never include credentials, secrets or customer test data in public reports.
 
 ---
 

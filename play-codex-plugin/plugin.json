@@ -5,7 +5,7 @@
   "description": "Create, run and debug Leapwork Play tests and runlists, build agents, and hand work to Play's AI workflows, right from Codex.",
   "author": { "name": "Leapwork", "url": "https://leapwork.ai/" },
   "homepage": "https://leapwork.ai/",
-  "repository": "https://github.com/leapwork/agent-plugins",
+  "repository": "https://github.com/leapwork/play-agent-plugins",
   "keywords": ["testing", "test-automation", "playwright", "leapwork"],
   "extensions": {
     "com.openai": {
