@@ -12,7 +12,7 @@ This plugin uses the [Agent Plugins 1.0](https://agent-plugins.org/) format: `pl
    ```json
    "chat.plugins.enabled": true,
    "chat.pluginLocations": {
-     "C:/path/to/agent-plugins/play-copilot-plugin": true
+     "C:/path/to/play-agent-plugins/play-copilot-plugin": true
    }
    ```
 

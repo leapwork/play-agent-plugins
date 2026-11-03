@@ -7,7 +7,7 @@
 
    ```powershell
    # Windows
-   robocopy C:\path\to\agent-plugins\play-cursor-plugin "$env:USERPROFILE\.cursor\plugins\local\leapwork-play" /E
+   robocopy C:\path\to\play-agent-plugins\play-cursor-plugin "$env:USERPROFILE\.cursor\plugins\local\leapwork-play" /E
    ```
 
    ```bash
