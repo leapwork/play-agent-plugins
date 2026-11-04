@@ -7,7 +7,10 @@
   "homepage": "https://leapwork.ai/",
   "repository": "https://github.com/leapwork/play-agent-plugins",
   "license": "MIT",
+  "documentationUrl": "https://docs.leapwork.com/leapwork-play/latest",
+  "supportUrl": "https://support.leapwork.com/s/contactsupport",
   "privacyPolicyUrl": "https://leapwork.com/legal/privacy-policy/",
+  "termsOfServiceUrl": "https://leapwork.com/legal/trial-evaluation-agreement/",
   "keywords": ["testing", "test-automation", "playwright", "leapwork"],
   "icon": "./assets/logo.png"
 }
