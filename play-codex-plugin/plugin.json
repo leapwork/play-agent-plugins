@@ -6,6 +6,7 @@
   "author": { "name": "Leapwork", "url": "https://leapwork.ai/" },
   "homepage": "https://leapwork.ai/",
   "repository": "https://github.com/leapwork/play-agent-plugins",
+  "license": "MIT",
   "keywords": ["testing", "test-automation", "playwright", "leapwork"],
   "extensions": {
     "com.openai": {
