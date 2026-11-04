@@ -18,7 +18,7 @@
         "category": "Productivity",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://leapwork.ai/",
-        "supportURL": "https://support.leapwork.com/s/",
+        "supportURL": "https://support.leapwork.com/s/contactsupport",
         "privacyPolicyURL": "https://leapwork.com/legal/privacy-policy/",
         "termsOfServiceURL": "https://leapwork.com/legal/trial-evaluation-agreement/",
         "logo": "./assets/logo.png",
