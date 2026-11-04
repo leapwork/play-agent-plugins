@@ -5,6 +5,9 @@
   "description": "Create, run and debug Leapwork Play tests and runlists, build agents, and hand work to Play's AI workflows, right from Claude Code.",
   "author": { "name": "Leapwork", "url": "https://leapwork.ai/" },
   "homepage": "https://leapwork.ai/",
+  "repository": "https://github.com/leapwork/play-agent-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://leapwork.com/legal/privacy-policy/",
   "keywords": ["testing", "test-automation", "playwright", "leapwork"],
   "icon": "./assets/logo.png"
 }
