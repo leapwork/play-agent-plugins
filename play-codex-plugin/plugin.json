@@ -12,13 +12,15 @@
     "com.openai": {
       "interface": {
         "displayName": "Leapwork Play",
-        "shortDescription": "Create, record, run and debug Leapwork Play tests",
+        "shortDescription": "Run and debug Leapwork tests",
         "longDescription": "Build, run and fix Playwright-based tests in Leapwork Play without leaving Codex. Create and record tests, run them and whole runlists, debug failures, build agents, and hand bigger jobs to Play's AI workflows, with your own Leapwork Play account.",
         "developerName": "Leapwork",
         "category": "Productivity",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://leapwork.ai/",
+        "supportURL": "https://support.leapwork.com/s/",
         "privacyPolicyURL": "https://leapwork.com/legal/privacy-policy/",
+        "termsOfServiceURL": "https://leapwork.com/legal/trial-evaluation-agreement/",
         "logo": "./assets/logo.png",
         "composerIcon": "./assets/logo.png"
       }
